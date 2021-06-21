@@ -1,0 +1,94 @@
+
+body{
+    background-image: url("./porkimg/pork\ live.jpg");
+    display: flex;
+    justify-content: center;
+    font-family: 'Zilla Slab', serif;
+    
+}
+
+
+
+#start{
+    background-color: white;
+    border-radius: 5px;
+    width: 350px;
+    height: 700px;
+    margin-top: 20px;
+    overflow: hidden;
+    color: red;
+    font-weight: bold;
+
+}
+#start2{
+    background-color: white;
+    width: 350px;
+    height: 520px;
+    border-radius: 5px;
+    margin-top: 80px;
+    overflow: hidden;
+    color: red;
+    font-weight: bold;
+}
+#header h2{
+    text-align: center;
+    background-color:red;
+    padding: 30px;
+    margin: 0;
+    color: white;
+
+}
+#foot{
+    text-align: center;
+    font-weight: bold;
+}
+.control{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+small{
+    visibility: hidden;
+    color: tomato;
+}
+button{
+    background-color: red;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px;
+    color: white;
+    
+}
+.yes a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    padding: 10px;
+    border: 2px solid rgb(231, 225, 225);
+    border-radius: 5px;
+}
+#line{
+    width: 80%;
+    margin-left: 35px;
+}
+.control.success input{
+    border-color: rgb(17, 212, 17);
+}
+.control.error input{
+    border-color: tomato;
+}
+footer{
+    padding: 20px;
+    
+}
+.box {
+display: flex;
+justify-content: center;
+margin-top: 10px;
+
+}
+
