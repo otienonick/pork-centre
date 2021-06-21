@@ -12,7 +12,7 @@ body{
 #start{
     background-color: white;
     border-radius: 5px;
-    width: 350px;
+    width: 400px;
     height: 700px;
     margin-top: 20px;
     overflow: hidden;
@@ -20,16 +20,7 @@ body{
     font-weight: bold;
 
 }
-#start2{
-    background-color: white;
-    width: 350px;
-    height: 520px;
-    border-radius: 5px;
-    margin-top: 80px;
-    overflow: hidden;
-    color: red;
-    font-weight: bold;
-}
+
 #header h2{
     text-align: center;
     background-color:red;
@@ -45,7 +36,7 @@ body{
 .control{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
 }
 small{
     visibility: hidden;
@@ -73,7 +64,7 @@ input{
 }
 #line{
     width: 80%;
-    margin-left: 35px;
+    margin-left: 40px;
 }
 .control.success input{
     border-color: rgb(17, 212, 17);
@@ -83,6 +74,7 @@ input{
 }
 footer{
     padding: 20px;
+    text-align: center;
     
 }
 .box {
@@ -91,4 +83,6 @@ justify-content: center;
 margin-top: 10px;
 
 }
-
+/*{
+    border: 1px dashed lime;
+}
